@@ -948,8 +948,9 @@ ul {
 }
 
 .agree-link {
-  display: inline-block;
+  display: inline-flex;
   color: var(--hover-color);
+  margin-left: 4px;
 }
 .submit-button {
   display: inline-block;
