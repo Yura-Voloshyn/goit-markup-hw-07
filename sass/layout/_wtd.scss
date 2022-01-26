@@ -1,0 +1,30 @@
+.section-wtd {
+  padding-top: var(--between-section-margin);
+  padding-bottom: var(--between-section-margin);
+}
+
+.wtd-list {
+  display: flex;
+  list-style-type: none;
+  margin-top: 50px;
+}
+.wtd-list > .wtd-item:nth-child(-n + 2) {
+  margin-right: var(--between-list-margin);
+}
+.wtd-item {
+  position: relative;
+}
+.wtd-text {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+  padding: 27px 82px;
+  letter-spacing: 0.03em;
+}

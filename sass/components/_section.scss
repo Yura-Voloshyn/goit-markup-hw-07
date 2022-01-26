@@ -2,3 +2,10 @@
   list-style-type: none;
   display: flex;
 }
+.section-title {
+  /* padding-top: var(--between-section-margin); */
+  font-size: 36px;
+  line-height: 1.17;
+  font-weight: 700;
+  text-align: center;
+}

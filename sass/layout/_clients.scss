@@ -1,0 +1,10 @@
+.clients {
+  padding-top: var(--between-section-margin);
+  padding-bottom: var(--between-section-margin);
+}
+.clients-list {
+  content: '';
+  display: flex;
+  list-style: none;
+  margin-top: 50px;
+}
