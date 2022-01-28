@@ -10,18 +10,8 @@
 .footer-address {
   margin-top: 20px;
 }
-.logo-footer {
-  display: inline-block;
-  font-weight: 700;
-  color: var(--footer-text-color);
-  font-size: 26px;
-  line-height: 1.19;
-  font-family: 'Raleway', sans-serif;
-  text-decoration: none;
-  letter-spacing: 0.03em;
-}
+
 .address-link {
-  /* color: var(--main-color); */
   color: var(--footer-text-color);
   text-decoration: none;
   font-style: normal;
@@ -31,25 +21,26 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--hover-color);
+  }
 }
 .contact-atribute .address-link {
   text-decoration: none;
-  /* color: var(--main-color); */
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  &:hover,
+  &:focus {
+    color: var(--hover-color);
+  }
 }
 .adr-item:nth-child(-n + 2) {
   margin-bottom: 9px;
 }
-/* .footer-list > .adr-item:last-child {
-  
-} */
-.address-link:hover,
-.address-link:focus {
-  color: var(--hover-color);
-}
+
 .joinus {
   display: inline-block;
   margin-left: 70px;
@@ -114,15 +105,7 @@
   display: flex;
   margin-top: 20px;
 }
-/* .submit-field {
-  background-color: #2f303a;
-  box-shadow: rgba(0, 0, 0, 0.15);
-  border: 1px solid rgba(255, 255, 255, 0, 3);
-  width: 358px;
-  max-height: 50px;
-  border-radius: 4px;
-  padding: 15px 16px;
-} */
+
 .input-form {
   font-size: 16px;
   line-height: 1.25;

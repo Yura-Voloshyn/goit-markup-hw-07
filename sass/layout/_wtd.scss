@@ -1,4 +1,4 @@
-.section-wtd {
+.wtd {
   padding-top: var(--between-section-margin);
   padding-bottom: var(--between-section-margin);
 }
@@ -8,13 +8,13 @@
   list-style-type: none;
   margin-top: 50px;
 }
-.wtd-list > .wtd-item:nth-child(-n + 2) {
+.wtd-list > .wtd-list__item:nth-child(-n + 2) {
   margin-right: var(--between-list-margin);
 }
-.wtd-item {
+.wtd-list__item {
   position: relative;
 }
-.wtd-text {
+.wtd-list__text {
   content: '';
   position: absolute;
   bottom: 0;
@@ -22,9 +22,9 @@
   font-size: 14px;
   line-height: 1.14;
   font-weight: 700;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
   padding: 27px 82px;
-  letter-spacing: 0.03em;
 }

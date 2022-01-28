@@ -1,4 +1,4 @@
-.client-link {
+.clients-list__link {
   list-style-type: none;
   content: '';
   display: flex;
@@ -11,16 +11,13 @@
   border: 1px solid var(--social-icon-color);
   border-radius: 4px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    fill: var(--hover-color);
+    border: 1px solid var(--hover-color);
+  }
 }
-.icon-client {
-  content: '';
-}
-.clients-item:nth-child(-n + 5) {
+
+.clients-list__item:nth-child(-n + 5) {
   margin-right: 30px;
-}
-.client-link:hover,
-.client-link:focus {
-  content: '';
-  fill: var(--hover-color);
-  border: 1px solid var(--hover-color);
 }
