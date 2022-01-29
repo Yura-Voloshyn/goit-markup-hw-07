@@ -11,14 +11,14 @@
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
-  .logo--color {
+  .logo__part {
     color: var(--hover-color);
   }
 }
 
 .logo__footer {
   color: var(--footer-text-color);
-  .logo--color {
+  .logo__part {
     color: var(--hover-color);
   }
 }

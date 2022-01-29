@@ -497,7 +497,7 @@ ul {
   padding-bottom: 25px;
 }
 
-.logo__header .logo--color {
+.logo__header .logo__part {
   color: var(--hover-color);
 }
 
@@ -505,7 +505,7 @@ ul {
   color: var(--footer-text-color);
 }
 
-.logo__footer .logo--color {
+.logo__footer .logo__part {
   color: var(--hover-color);
 }
 
