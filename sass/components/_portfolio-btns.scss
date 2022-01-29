@@ -2,21 +2,20 @@
   display: flex;
   list-style-type: none;
   justify-content: center;
-  /* margin-right: 8px; */
 }
-.btn-item {
+.button-list__item {
   display: flex;
   margin-right: 8px;
   border: none;
   outline: none;
 }
-.button-list > .btn-item:last-child {
+.button-list > .button-list__item:last-child {
   margin-right: 0px;
 }
 .button-list .portfolio-list {
   list-style-type: none;
 }
-.filter-button {
+.button-list__btn {
   background: #f5f4fa;
   border: none;
   font-family: inherit;
